@@ -1,0 +1,93 @@
+.header {
+    background-color: #a08d77;
+    position: relative;
+    height:160px;
+    width:100%;
+    display: block;
+}
+.footer {
+    background-color: #a08d77;
+    position:absolute;
+    bottom:0;
+    height:160px;
+    width:100%;
+    display: block;
+}
+.content {
+    position: fixed;
+    width:100%;
+    top:160px;
+    bottom:160px;
+    margin-left: 200px; /* Same as the width of the sidebar */
+    margin-top: 35px;
+    display: block;
+}
+.sidebar {
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 168px; /* Stay at the top */
+    bottom: auto;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 16px;
+    margin: 0 0 16px 0;
+    text-align: left;
+}
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.sidebar a:hover {
+    color: #a08d77;
+}
+.logo{
+    position: relative;
+    margin-top: 35px;
+    height: 70px;
+    width: 70px;
+    left: 20px;
+    bottom: 20px;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    position: relative;
+    float: left;
+    color: #a08d77;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.pict{
+    margin: 35px;
+    width: 20%;
+    height: 20%;
+}
+.picture-row {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.string-container{
+    display: flex;
+}
+.string{
+    margin-right: 20px;
+    font-size: 28px;
+}
+.text-column {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.text-block {
+    margin-bottom: 8px;
+    margin-left: 15px;
+}

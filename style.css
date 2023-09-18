@@ -1,6 +1,6 @@
 .header {
     background-color: #a08d77;
-    position: relative;
+    position: absolute;
     height:160px;
     width:100%;
     display: block;
@@ -23,15 +23,16 @@
     display: block;
 }
 .sidebar {
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    top: 168px; /* Stay at the top */
+    width: 160px;
+    position: absolute;
+    top: 168px;
     bottom: auto;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #111;
+    overflow-x: hidden;
     padding: 16px;
     margin: 0 0 16px 0;
     text-align: left;
+    font-family: Calibri, serif;
 }
 .sidebar a {
     padding: 6px 8px 6px 16px;
@@ -54,6 +55,7 @@
 .topnav {
     background-color: #333;
     overflow: hidden;
+    font-family: Calibri, serif;
 }
 .topnav a {
     position: relative;
@@ -65,20 +67,30 @@
     font-size: 20px;
 }
 .pict{
-    margin: 35px;
-    width: 20%;
-    height: 20%;
+    max-width: 100%;
+    box-shadow: black;
+    border-radius: 20px;
+}
+.image {
+    margin:  35px;
+    width: 200px;
+    height: 200px;
 }
 .picture-row {
-    width: 1200px;
+    width: 800px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+.image:hover .pict{
+    transform: scale(1.2);
 }
 .string-container{
     display: flex;
 }
 .string{
+    font-family: Calibri, serif;
+    margin-left: 320px;
     margin-right: 20px;
     font-size: 28px;
 }
@@ -86,6 +98,8 @@
     display: flex;
     flex-direction: column;
     width: 150px;
+    margin-left: 335px;
+    font-family: Calibri, serif;
 }
 .text-block {
     margin-bottom: 8px;

@@ -28,6 +28,7 @@
     display: flex;
 }
 .sidebar {
+    border: #a08d77;
     background-color: #111;
     width: 160px;
     position: absolute;
@@ -38,6 +39,7 @@
     margin: 0 0 16px 0;
     text-align: left;
     font-family: Calibri, serif;
+
 }
 .sidebar a {
     padding: 6px 8px 6px 16px;

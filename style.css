@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .header {
     background-color: #a08d77;
     position: absolute;
@@ -7,20 +11,20 @@
 }
 .footer {
     background-color: #a08d77;
-    position:absolute;
+    position:fixed;
     bottom:0;
     height:160px;
     width:100%;
     display: inline-block;
 }
 .content {
+    position: relative;
+    min-height: 100vh;
+    display: inline-block;
     width:100%;
     top:160px;
     bottom:160px;
-    margin-left: 200px; /* Same as the width of the sidebar */
-    margin-top: 200px;
-    display: inline-block;
-    padding-bottom: 160px;
+    margin-left: 240px;
 }
 .page-container{
     position: relative;
@@ -75,11 +79,11 @@
 }
 .pict{
     max-width: 100%;
-    box-shadow: black;
+    box-shadow: 5px 0 5px rgb(128, 128, 128);
     border-radius: 20px;
+    border: black solid 1px;
 }
 .image {
-    margin:  35px;
     width: 200px;
     height: 200px;
 }
@@ -87,7 +91,7 @@
     width: 800px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 .image:hover .pict{
     transform: scale(1.2);

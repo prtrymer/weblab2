@@ -32,12 +32,12 @@ body{
     display: flex;
 }
 .sidebar {
-    border: #a08d77;
+    border: 1px solid #a08d77;
     background-color: #111;
     width: 160px;
     position: absolute;
     top: 160px;
-    bottom: auto;
+    height: 100%;
     overflow-x: hidden;
     padding: 16px;
     margin: 0 0 16px 0;
